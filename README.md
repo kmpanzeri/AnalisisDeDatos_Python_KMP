@@ -1,16 +1,12 @@
-## 📊 Análisis de Datos con Python
+# 📊 Análisis de Ventas y Marketing con Python
 
-Análisis de Ventas y Marketing con Python donde se desarrolla un flujo completo de trabajo de análisis de datos utilizando Python: desde la carga y limpieza de datos hasta el análisis exploratorio, integración de múltiples fuentes y generación de visualizaciones para obtener información útil para la toma de decisiones.
+ Proyecto que tiene como objetivo  analizar información de ventas y marketing siguiendo un flujo completo de análisis de datos: carga, limpieza, transformación, exploración, visualización e interpretación de resultados.
 
----
+## Objetivo
 
-## 🎯 Objetivo
+Evaluar el comportamiento de las ventas y explorar si existe una relación entre la inversión en campañas de marketing y el desempeño de los productos.
 
-Analizar información de ventas y marketing mediante técnicas de preparación, transformación y exploración de datos para identificar patrones, evaluar el rendimiento de productos y comunicar los principales hallazgos mediante visualizaciones.
-
----
-
-## 🛠 Tecnologías utilizadas
+## Herramientas utilizadas
 
 - Python
 - Google Colab
@@ -19,93 +15,57 @@ Analizar información de ventas y marketing mediante técnicas de preparación, 
 - Matplotlib
 - Seaborn
 
----
+## Desarrollo del proyecto
 
-## 📂 Estructura del proyecto
+Durante el análisis se realizaron las siguientes tareas:
+
+- Carga y exploración inicial de los datasets.
+- Identificación de valores nulos y registros duplicados.
+- Limpieza y transformación de los datos.
+- Integración de las bases de ventas y marketing.
+- Análisis exploratorio de datos (EDA).
+- Cálculo de estadísticas descriptivas.
+- Análisis de correlación entre variables.
+- Generación de visualizaciones para interpretar los resultados.
+
+## Resultados
+
+El análisis mostró que la **cantidad vendida** y el **precio unitario** fueron las variables más relacionadas con la venta neta, mientras que el costo de las campañas presentó una correlación muy baja. Además, al comparar las ventas con campañas activas e inactivas no se observaron diferencias importantes, lo que sugiere que, para este conjunto de datos, la inversión en marketing no explica por sí sola el comportamiento de las ventas.
+
+Las conclusiones completas pueden consultarse en **docs/informe_conclusiones.pdf**.
+
+## Contenido del repositorio
 
 ```
 AnalisisDeDatos_Python_KMP/
 │
-├── Entrega_Panzeri.ipynb          # Notebook principal              
+├── Entrega_Panzeri.ipynb
+├── data/
 ├── docs/
-│   └── informe_conclusiones.pdf   # Informe final
+│   └── informe_conclusiones.pdf
 └── README.md
 ```
 
----
+## Habilidades aplicadas
 
-## 🔍 Etapas del análisis
+- Limpieza y preparación de datos
+- Manipulación de datos con Pandas
+- Integración de datasets
+- Análisis exploratorio (EDA)
+- Estadística descriptiva
+- Visualización de datos
+- Interpretación y comunicación de resultados
 
-### 1. Recopilación y preparación de datos
+## Próximas mejoras
 
-- Carga de múltiples datasets en Google Colab.
-- Exploración inicial utilizando Pandas.
-- Revisión de estructura, tipos de datos y dimensiones.
-- Identificación de valores nulos y registros duplicados.
+- Incorporar visualizaciones interactivas.
+- Organizar el proyecto en scripts reutilizables.
+- Ampliar el análisis incorporando nuevos indicadores.
 
-### 2. Limpieza y transformación
+## Autor
 
-- Eliminación de registros duplicados.
-- Limpieza de caracteres inconsistentes.
-- Tratamiento de valores faltantes.
-- Filtrado de productos de alto rendimiento.
-- Integración de las bases de ventas y marketing mediante operaciones de unión (merge).
+**Karen M. Panzeri**
 
-### 3. Análisis exploratorio (EDA)
+## Licencia
 
-Se realizó un análisis descriptivo de las variables principales mediante:
-
-- Media
-- Mediana
-- Moda
-- Desviación estándar
-- Rango intercuartílico
-
-Además se exploraron:
-
-- Distribución de las ventas.
-- Comportamiento por categoría de producto.
-- Relación entre variables.
-- Comparación entre productos con y sin campañas de marketing.
-- Correlaciones mediante mapa de calor.
-
-### 4. Visualización de datos
-
-Se generaron diferentes gráficos para facilitar la interpretación de los resultados, entre ellos:
-
-- Histogramas
-- Boxplots
-- Heatmap de correlación
-
----
-
-## 📈 Principales habilidades demostradas
-
-- Importación y manipulación de datos con Pandas.
-- Limpieza y preparación de datos.
-- Integración de múltiples fuentes de información.
-- Análisis exploratorio de datos (EDA).
-- Estadística descriptiva.
-- Visualización de datos con Matplotlib y Seaborn.
-- Comunicación de resultados mediante un informe técnico.
-
----
-
-## 📄 Informe
-
-Las conclusiones y principales resultados del análisis pueden consultarse en:
-
-📁 **docs/informe_conclusiones.pdf**
-
----
-
-## 🚀 Próximas mejoras
-
-- Incorporar visualizaciones interactivas con Plotly.
-- Automatizar el flujo mediante funciones reutilizables.
-- Aplicar técnicas de análisis predictivo.
-- Migrar el notebook a una estructura modular con scripts de Python.
-
----
-
-## 👩‍💻 Autor
+Este proyecto se distribuye bajo la licencia **MIT**. Puede utilizarse, modificarse y compartirse respetando los términos de dicha licencia.
