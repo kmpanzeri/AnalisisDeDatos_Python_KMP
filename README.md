@@ -45,7 +45,6 @@ AnalisisDeDatos_Python_KMP/
 │   └── informe_conclusiones.pdf
 └── README.md
 ```
-
 ## Habilidades aplicadas
 
 - Limpieza y preparación de datos
