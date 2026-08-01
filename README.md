@@ -1,4 +1,4 @@
-# 📊 Análisis de Datos con Python
+## 📊 Análisis de Datos con Python
 
 Análisis de Ventas y Marketing con Python donde se desarrolla un flujo completo de trabajo de análisis de datos utilizando Python: desde la carga y limpieza de datos hasta el análisis exploratorio, integración de múltiples fuentes y generación de visualizaciones para obtener información útil para la toma de decisiones.
 
